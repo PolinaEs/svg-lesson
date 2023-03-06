@@ -40,7 +40,7 @@
 }
 
 .circle:hover {
-  stroke: darkorange;
-  fill: burlywood;
+  stroke: crimson;
+  fill: darkmagenta;
   transition: 2s;
 }
