@@ -1,0 +1,46 @@
+.container {
+  justify-items: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.svg {
+  margin: 50px;
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+}
+
+.circle {
+  fill: aqua;
+  stroke: aquamarine;
+  stroke-width: 5px;
+  width: 300px;
+  height: 300px;
+
+  animation: pulsing 5s infinite;
+}
+
+@keyframes pulsing {
+  0% {
+
+    transform: scale(0.5, 0.5)
+  }
+
+  50% {
+
+    transform: scale(1.0, 1.0);
+  }
+
+  100% {
+
+    transform: scale(0.5, 0.5);
+  }
+}
+
+.circle:hover {
+  stroke: darkorange;
+  fill: burlywood;
+  transition: 2s;
+}
